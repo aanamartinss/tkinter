@@ -1,0 +1,36 @@
+import tkinter as tk
+def calcular ():
+    base=float(base.get())
+    altura=float(altura.get())
+    area=float(area.get())
+    area= (base*altura)
+    area['text']= area
+    
+  
+
+window = tk.Tk()
+window.title("tk")
+window.geometry("300x300")
+
+base=tk.Label(text="base:")
+base.pack()
+
+base=tk.Entry()
+base.pack()
+
+altura=tk.Label(text="altura:")
+altura.pack()
+
+altura=tk.Entry()
+altura.pack()
+
+res=tk.Label(text="resposta:")
+res.pack()
+
+cal= tk.Button(text="calcular")
+cal.pack(side=tk.LEFT)
+''
+
+tk.mainloop()
+
+
